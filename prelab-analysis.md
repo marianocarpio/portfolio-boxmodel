@@ -1,0 +1,10 @@
+Prelab-analysis
+
+1. Which sections are crowded?
+Some of the problems associated with the website include overcrowded sections that lead to visual messiness and lack of content structure. The stats grid in the index page contains stat cards placed close together at a gap of 25px between each other, creating visual competition among them. In addition, section cards in the about page lack sufficient padding space (60px), hence leaving content tightly packed in glassmorphic boxes. Similarly, the contact grid presents items of information that are spaced apart at an interval of 15px, leading to stacking effect. Also, timeline items present a narrow margin gap of 40px between them and a small gap of 30px between the years and content.
+
+2. Which elements lack spacing?
+There are many instances where the spacing is inadequate, interrupting the flow of the design. For instance, the navigation bar has very little padding, giving it a compacted look, especially on the “about” page. The section headings lack sufficient padding below them, putting them too close to the next elements. The experience list items have little space between them vertically, which makes them difficult to read through.
+
+3. What layout problems do you see?
+There are some issues associated with the structure of the design of the website that are related to the improper use of the CSS Box Model. Specifically, the absence of the box-sizing: border-box property for the whole webpage leads to inability to manage the dimensions of any page element, including both its padding and border sizes. The padding property is inconsistent since some of its elements have 60px of padding while others have 20-30px. Consequently, there is an uneven rhythmic pattern created. The insufficient margin value of 60px leads to the inability to scroll the sections separately. Mobile-responsiveness serves as the cause of such issues as excessive padding compression, overlap of fixed navigation bars, and improper spacing within grids.
